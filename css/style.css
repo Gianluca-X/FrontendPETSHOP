@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+header{}
+
+header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 4px 60px 4px 90px;
+}
+
+
+header div.secondHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    padding: 24px 50px;
+}
+
+header div.secondHeader nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header div.secondHeader nav ul li{
+    margin-left: 15px;
+}
+
+.material-icons-outlined{
+    font-size: 14px;
+    color: #F3F3F3;
+
+}
+ main .mainx{
+        height: calc(100vh - 96px);
+        background-image: url('../img/bowl-and-pet-daities-on-green-background1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+
+}
+main section div p {
+    background-color: transparent;
+    color:black;
+    font-size: 16px;
+    
+}
+.blank{
+    padding:10px ;
+    width: 330px;
+    margin:150px 0px 20px 750px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    background-color:white;
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    color: black;
+}
+.Comederos {
+    border-radius: 5px;
+    margin:0px 0px 10px 850px;
+    padding:14px;
+    width: 110px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+main div .Text{
+     margin: 0px 0px 20px 720px;
+     text-align:center ;
+}
+main .destacado{ 
+    margin:20px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+}
+main div span{
+    margin: 30px 15px 0px 0px;
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: #666666;
+}
+main .Uno{
+    display: flex;
+    justify-content: space-around;
+    margin:50px
+
+}
+main section article{
+    height: 330px;
+    width:280px;
+    background: #FBFAF6;
+    text-align: center;
+    font-size: 20px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+
+    font-family: 'Roboto',sans-serif;
+    color: #3C2313;
+}
+.yellow {
+    color: #F0A83E;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 340px 20px 340px;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.container p{
+    background-color: #3c2313;
+    color:white;
+    border-radius: 15px;
+    margin: 10px;
+    padding:20px 0px 20px 10px ;
+   
+
+
+}
+ h4{
+     margin: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 29px;
+    color: #3C2313;
+    text-align: center;
+ }
+ main div .button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .rs{
+     padding: 10px 25px;
+     border-radius: 15px;
+   background-color: #8a8787; 
+   color: white;
+   
+ }
+ .snd{
+     border-radius: 15px;
+   background-color: #F0A83E;
+   color:white;
+   padding:10px 35px;
+
+
+ }
+.pre{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pre p{
+    margin-right: 450px;
+    color:white;
+    text-align: left;
+    font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+} 
+.pre span{
+    font-size: 15px;
+    border-radius: 25px;
+    margin:10px;
+    padding: 15px 200px 15px 10px;
+    background-color: white;
+}
+.pre .subs{
+    padding:15px 20px 15px 20px;
+    background-color: #3c2313;
+    color:white;
+}
+footer {
+    background-color: #3C2313;
+}
+footer section article{
+    padding: 15px 0px 0px 30px;
+} 
+footer section article img{
+    display: block;
+    
+}
+footer section article p{
+    position: absolute;
+    
+    margin: 5px 0px 5px 80px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color:white;
+}
+
+footer section article span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    color: gray;
+    padding: 0px 10px 0px 0px;    
+}
+footer section article .frontcat{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: flex-end;
+}
+footer p .Derechos{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
